@@ -1,0 +1,22 @@
+{
+    "name": "hasee/frame",
+    "authors": [
+        {
+            "name": "keke",
+            "email": "928096642@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    }
+}
